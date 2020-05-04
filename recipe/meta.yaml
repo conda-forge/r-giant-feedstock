@@ -1,4 +1,4 @@
-{% set version = '1.2' %}
+{% set version = "1.3" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/GiANT_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/GiANT/GiANT_{{ version }}.tar.gz
-  sha256: fc941a6b2cd20c6ea714cd76442ba656880c8c90bda66d9c8df4df77b7e83241
+  sha256: 1ff32294f88e3d49d83938d88646fb6c0b779dc990aabe83c27e19ba1895bf05
 
 build:
   noarch: generic
-  number: 1001
+  number: 0
 
   rpaths:
     - lib/R/lib/
@@ -37,10 +37,11 @@ test:
 about:
   home: https://CRAN.R-project.org/package=GiANT
   license: Artistic-2.0
-  summary: Toolbox for various enrichment analysis methods and quantification of uncertainty
-    of gene sets.
+  summary: Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets.
   license_family: OTHER
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/Artistic-2.0
 extra:
   recipe-maintainers:
     - conda-forge/r
