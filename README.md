@@ -5,7 +5,7 @@ Home: https://CRAN.R-project.org/package=GiANT
 
 Package license: Artistic-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets.
 
