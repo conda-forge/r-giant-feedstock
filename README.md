@@ -7,7 +7,9 @@ Home: https://CRAN.R-project.org/package=GiANT
 
 Package license: Artistic-2.0
 
-Summary: Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets.
+Summary: Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets, Schmid et al. (2016) <doi:10.1093/bioinformatics/btw030>.
+
+Development: https://github.com/cran/GiANT
 
 Current build status
 ====================
